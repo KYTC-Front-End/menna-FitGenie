@@ -401,10 +401,9 @@ header {
     .start-now-download p {
         font-size: 30px;
         line-height: 45px;
-        text-align: left;
-        position: absolute;
+        text-align: center;
         top: 220;
-        left: 140;
+        left: 80;
     }
 
     .start-now-download a {
