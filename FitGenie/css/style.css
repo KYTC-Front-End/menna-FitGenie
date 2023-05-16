@@ -278,6 +278,51 @@ header {
     left: -0.4;
 }
 
+@media (max-width: 600px) and (min-width: 400px) {
+
+    .comments-section h2 {
+        font-size: 60px;
+    }
+
+    .comments-section .comments {
+
+        line-height: 300px;
+        width: 85%;
+        /* margin: 0 auto 40px auto; */
+        font-size: 20px;
+        height: 171px;
+        border-radius: 85px;
+    }
+
+    .comments-section .comments h4 {
+        line-height: 20px;
+        font-size: 30px;
+        left: 90;
+
+    }
+
+    .comments-section .comments .stars {
+        left: 230;
+        top: 19;
+    }
+
+    .comments-section .comments p {
+        width: 80%;
+        font-size: 25px;
+        left: 60;
+        top: 60;
+    }
+
+    .comments-section .comments img {
+        width: 71px;
+        height: 71px;
+        bottom: 105;
+    }
+
+
+}
+
+
 /* <!--  COMMENTS SECTION END --> */
 
 /* <!--  START-NOW SECTION START --> */
@@ -335,7 +380,45 @@ header {
     border: 3px solid #ffffff;
     font-size: 63px;
     background-color: rgba(255, 116, 30, 0.6);
+}
 
+@media (max-width: 600px) and (min-width: 400px) {
+
+    .start-now-download {
+        height: 74vh;
+    }
+
+    .start-now-download h2 {
+        font-size: 60px;
+        text-align: center;
+        width: 90%;
+        line-height: 50px;
+        left: 0;
+        top: 100;
+        left: 25;
+    }
+
+    .start-now-download p {
+        font-size: 30px;
+        line-height: 45px;
+        text-align: left;
+        position: absolute;
+        top: 220;
+        left: 140;
+    }
+
+    .start-now-download a {
+        font-size: 30px;
+        top: 300;
+        right: 180;
+    }
+
+    .start-now-download a:hover {
+        box-shadow: 1px 1px 0, 2px 2px 0, 3px 3px 0, 4px 4px 0;
+        border: 2px solid #ffffff;
+        font-size: 30px;
+        background-color: rgba(255, 116, 30, 0.6);
+    }
 
 }
 
