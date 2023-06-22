@@ -58,8 +58,6 @@ header {
 
 /* <!-- navbar  start --> */
 .hero-section {
-    /* background-color: rgba(0, 0, 0, 0.502) !important; */
-    /* background-image: url(../imges/hero.png); */
     background-size: cover;
     height: 100vh;
     color: #ffffff;
@@ -104,6 +102,75 @@ header {
     border-radius: 50px;
     text-decoration: none;
     line-height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        width: 80%;
+        padding: 30px 0;
+        display: block;
+        align-items: center;
+
+    }
+
+
+    .nav-list ul {
+        display: flex;
+        padding-top: 30px;
+        gap: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-list ul a {
+        font-size: 30px;
+    }
+
+    .nav-list ul .last-child-nav {
+
+        margin-left: 200px;
+        align-items: center;
+
+    }
+
+    .hero-section .hero-img {
+        height: 80vh;
+        width: 98vw;
+    }
+
+    .hero-section .hero-info {
+        width: 60%;
+        text-align: center;
+        padding: auto;
+        position: absolute;
+        top: 2;
+        left: 140;
+    }
+
+    .hero-section .hero-big-title {
+        font-size: 60px;
+        width: 100%;
+        margin-top: 90px;
+        text-align: center;
+        line-height: 50px;
+        font-weight: bold;
+    }
+
+    .hero-section .hero-paragraph {
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        width: 120%;
+    }
+
+    .hero-section .download-hero {
+        text-align: center;
+        padding: 0 27px;
+        font-size: 30px;
+        border-radius: 50px;
+        line-height: 150px;
+    }
+
 }
 
 /* <!--  FEATURES SECTION START --> */
@@ -211,6 +278,61 @@ header {
     right: 885px;
 }
 
+@media screen and (max-width: 600px) {
+    .works {
+        width: 80%;
+        padding: auto;
+        margin: auto;
+    }
+
+    .works h1 {
+        text-align: center;
+        font-size: 100px;
+        color: #FF741E;
+        line-height: 200px;
+        font-weight: 300;
+    }
+
+    .works-type {
+        line-height: 40px;
+        text-align: center;
+        padding: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .works p {
+        font-size: 30px;
+        margin: 0 auto;
+        width: 450px;
+    }
+
+    .works .work-one,
+    .work-two,
+    .work-three {
+        position: relative;
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+    .works {
+        width: 60%;
+    }
+
+    .works h1 {
+        font-size: 90px;
+        line-height: 150px;
+        font-weight: 200;
+    }
+
+
+    .works .fa-solid {
+        display: none;
+    }
+
+
+}
+
 /* <!--  WORKS SECTION END --> */
 
 /* <!--  COMMENTS SECTION START --> */
@@ -308,7 +430,7 @@ header {
 
     .comments-section .comments p {
         width: 80%;
-        font-size: 25px;
+        font-size: 20px;
         left: 60;
         top: 60;
     }
@@ -382,7 +504,9 @@ header {
     background-color: rgba(255, 116, 30, 0.6);
 }
 
-@media (max-width: 600px) and (min-width: 400px) {
+
+
+@media (max-width: 1000px) and (min-width: 400px) {
 
     .start-now-download {
         height: 74vh;
@@ -508,3 +632,5 @@ footer .footer-list .share p i {
     text-align: center;
     font-size: 20px;
 }
+
+@media screen and (max-width: 600px) {}
